@@ -1,0 +1,44 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>410</x><y>150</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;VeicoloAMotore&gt;&gt;
+Package::Compiti
+--
+# String Marca;
+# String Modello;
+# Double Cilindrata;
+# Int Anno;
+# String Alimentazione;
+--
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>730</x><y>510</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Automobile&gt;&gt;
+Package::Compiti
+--
+-int Nporte;
+
+--
++Impostazioni(.......);
++String ToString;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>520</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Furgone&gt;&gt;
+Package::Compiti
+
+--
+- int carico;
+--
++Impostazioni(.......);
++String ToString;
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>510</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Moto&gt;&gt;
+Package::Compiti
+--
+- String tipo;
+--
++Impostazioni(.......);
++String ToString;</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>470</x><y>330</y><w>30</w><h>210</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;190</additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>330</y><w>260</w><h>200</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;240;180</additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>330</y><w>270</w><h>200</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>250;10;10;180</additional_attributes></element><element><id>UMLClass</id><coordinates><x>760</x><y>140</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Garage&gt;&gt;
+Package::Compiti
+--
+#VeicoloAMotore[15] Array;
+# int pos;
+--
++entrata(VeicoloAMotore);
++uscita(int )
++String ToString;
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>160</y><w>170</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>150;10;10;10</additional_attributes></element></diagram>
